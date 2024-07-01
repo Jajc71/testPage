@@ -1,1 +1,243 @@
-/* You can add global styles to this file, and also import other style files */
+/* Fuentes del proyecto */
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-Bold.ttf');
+ }
+
+@font-face{
+    font-family: 'CaveatBrush';
+    src: url('./assets/fonts/CaveatBrush-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'BalooBahijaan';
+    src: url('./assets/fonts/BalooBhaijaan2-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'BreeSerif';
+    src: url('./assets/fonts/BreeSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'BalooDa2';
+    src: url('./assets/fonts/BalooDa2-Regular.ttf');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #1793CF;
+    width: 100%;
+    height: 50px;
+}
+
+.clsLogo{
+    margin-right: 40px;
+    height: 46px;
+    width: 46px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: underline;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #FDFDFD;
+}
+
+#Inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+h1{
+    font-family: 'CaveatBrush';
+    color: black;
+    font-size: 100px;
+    font-weight: normal;
+}
+
+h2{
+    font-family: 'BalooBahijaan';
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.titleBal{
+    font-family: 'BalooBahijaan';
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.contButons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15rem;
+}
+
+.btnInicio{
+    font-family: 'BalooBahijaan';
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #39A7A7;
+    color: #ECE4E4;
+    border-width: 0;
+    padding: 4px;
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+}
+
+#Nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.titleCards{
+    font-family: 'BreeSerif';
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.txtCards{
+    font-family: 'BalooDa2';
+    font-size: 15px;
+    font-weight: normal;
+    text-align: justify;
+    margin-top: 4px;
+}
+
+.contCards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    margin-top: 40px;
+    gap: 200px;
+}
+
+.cardAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 13px;
+    box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.5);
+    background: #E8E7E1;
+    padding: 20px;
+    width: 400px;
+}
+
+#Programas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.containerCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.cardProgram{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+    margin: 15px;
+    padding: 20px;
+    width: calc(50% - 30px);
+}
+
+.cardProgram h4{
+    font-family: 'BreeSerif';
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cardProgram p{
+    font-family: 'BalooDa2';
+}
+
+.cardProgram ul{
+    font-family: 'BalooDa2';
+    margin-left: 30px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoApp{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    font-family: 'BalooDa2';
+    width: 50%;
+}
+
+.infoCom{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'BalooDa2';
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.btnApp{
+    font-family: 'BalooBahijaan';
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #C6B41A;
+    color: black;
+    border-width: 0;
+    padding: 4px;
+    width: 300px;
+    height: 40px;
+    font-weight: 900;
+    cursor: pointer;
+}
