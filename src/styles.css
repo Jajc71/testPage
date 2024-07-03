@@ -145,7 +145,7 @@ h2{
     align-items: center;
     width: auto;
     margin-top: 40px;
-    gap: 200px;
+    gap: 100px;
 }
 
 .cardAbout{
@@ -262,11 +262,13 @@ h2{
     font-family: 'BreeSerif';
     font-size: 25px;
     color: black;
+    margin-top: 20px;
 }
 
 .infoBal{
     font-family: 'BalooDa2';
     font-size: 25px;
     color: black;
+    margin-top: 20px;
 }
 
