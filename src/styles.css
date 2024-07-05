@@ -250,6 +250,64 @@ h2{
     margin-top: 50px;
 }
 
+.frmRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#frmTestimonio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+#frmTestimonio h4{
+    font-family: 'BalooDa2';
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.txtContainer{
+    width: 100%;
+}
+
+.txtTestimonio{
+    font-family: 'BalooDa2';
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 10px;
+    border-width: 3px;
+    width: 85%;
+    height: 80px;
+    padding: 5px;
+}
+
+.rowButton{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.btnEnviar{
+    font-family: 'BalooBahijaan';
+    font-size: large;
+    font-weight: 800;
+    color: black;
+    border-radius: 20px;
+    background-color: #C6B41A;
+    border-width: 0;
+    padding: 2px;
+    width: 200px;
+    height: 40px;
+}
+
 #Contacto{
     display: flex;
     flex-direction: column;
