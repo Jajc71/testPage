@@ -102,6 +102,7 @@ h2{
     align-items: center;
     margin-top: 20px;
     gap: 15rem;
+    justify-content: center;
 }
 
 .btnInicio{
