@@ -38,13 +38,14 @@ header{
     justify-content: center;
     background: #1793CF;
     width: 100%;
-    height: 50px;
+    height: 100px;
 }
 
 .clsLogo{
     margin-right: 40px;
-    height: 46px;
-    width: 46px;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
 }
 
 nav ul{
@@ -218,8 +219,16 @@ h2{
     display: flex;
     flex-direction: row;
     text-align: justify;
+    align-items: center;
     font-family: 'BalooDa2';
-    width: 50%;
+    width: 70%;
+    gap: 20px;
+}
+
+.imgApp{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
 }
 
 .infoCom{
