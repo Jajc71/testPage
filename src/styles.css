@@ -90,6 +90,12 @@ h2{
     font-weight: 700;
 }
 
+.conoce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .titleBal{
     font-family: 'BalooBahijaan';
     color: black;
@@ -114,10 +120,11 @@ h2{
     color: #ECE4E4;
     border-width: 0;
     padding: 4px;
-    width: 180px;
+    width: 250px;
     height: 40px;
     font-weight: bold;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 #Nosotros{
