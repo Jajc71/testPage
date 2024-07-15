@@ -376,7 +376,7 @@ h2{
 }
 
 
-
+/*############ Adaptaciones a pantallas móviles #############*/
 
 @media only screen and (min-width:320px) and (max-width:450px){
     header{
@@ -462,7 +462,7 @@ h2{
 
     .imgInicio{
         width: 80px;
-        height: 50px;
+        height: 70px;
     }
 
     .btnInicio{
@@ -518,5 +518,170 @@ h2{
     .imgAbout{
         width: 100px;
         height: 60px;
-    } 
+    }
+    
+    #Programas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    .imgContain{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    .containerCards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 10px auto;
+        width: 80%;
+        margin-bottom: 10%;
+    }
+    
+    .cardProgram{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: justify;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 2px;
+        padding: 5px;
+        width: calc(50% - 20px);
+    }
+
+    .imgContain img{
+        width: 50px;
+        height: 50px;
+        transform: scaleX(1.5);
+    }
+    
+    .cardProgram h4{
+        font-size: 7px;
+        margin-bottom: 7px;
+    }
+    
+    .cardProgram p{
+        font-size: 5px;
+    }
+    
+    .cardProgram ul{
+        margin-top: 10px;
+        margin-left: 2px;
+        list-style: none;
+    }
+    
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .infoApp{
+        width: 70%;
+        gap: 10px;
+        font-size: 6px;
+        margin-bottom: 10px;
+    }
+    
+    .imgApp{
+        font-size: 6px;
+        width: 30px;
+        height: 30px;
+        border-radius: 40px;
+    }
+    
+    .infoCom{
+        width: 80%;
+        font-size: 6px;
+        margin-bottom: 20px;
+    }
+    
+    .btnApp{
+        font-size: 10px;
+        border-radius: 10px;
+        padding: 2px;
+        width: 160px;
+        height: 20px;
+    }
+
+    #Certificaciones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    .lblTestimonios{
+        font-size: 6px;
+    }
+    
+    .frmRow{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    #frmTestimonio{
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    
+    #frmTestimonio h4{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    
+    .txtContainer{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .txtTestimonio{
+        font-size: 8px;
+        width: 85%;
+        height: 50px;
+        padding: 2px;
+    }
+    
+    .rowButton{
+        width: 100%;
+        padding-right: 0px;
+        margin-top: 10px;
+    }
+    
+    .btnEnviar{
+        font-size: 10px;
+        padding: 2px;
+        width: 100px;
+        height: 20px;
+    }
+
+    #Contacto{
+        margin-top: 25px;
+    }
+    
+    .infoContact{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    
+    .infoBal{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    .infoBal2{
+        margin-bottom: 20px;
+    }
 }
