@@ -1,13 +1,24 @@
 <section id="Certificaciones">
     <h3 class="titleBal">Testimonios</h3>
     <div class="testimContainer">
-      <label for="testimonio" class="lblTestimonios">Testimonios de Beneficiarios</label>
+      <p id="lblTestimonios">Testimonios de Beneficiarios</p>
     </div>
     <form id="frmTestimonio">
-      <label for="testimonio" class="lblTestimonios">CTA: ¿Quieres compartir tu experiencia?</label>
+      <p id="lblTestimonios">CTA: ¿Quieres compartir tu experiencia?</p>
       <div class="frmRow">
         <h4>Envía tu <br>testimonio:</h4>      
-        <input type="number" id="rating" name="rating" min="1" max="5" required>
+        <p class="clasificacion">
+          <input id="radio1" type="radio" name="estrellas" value="5"><!--
+          --><label for="radio1">★</label><!--
+          --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+          --><label for="radio2">★</label><!--
+          --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+          --><label for="radio3">★</label><!--
+          --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+          --><label for="radio4">★</label><!--
+          --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+          --><label for="radio5">★</label>
+        </p>
       </div>
     
       <div class="txtContainer">
